@@ -1,31 +1,24 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# 首先修改这些
+owner: zhangsan # 你的 GitHub 用户名
+repo: my-status # 你的仓库名
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: 我的博客
+    url: https://hgfds29.github.io/my-web/
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # 没有自定义域名，所以删掉 cname 这一行
+  # cname: demo.upptime.js.org
+  baseUrl: /my-status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: 我的服务状态
+  introTitle: "**我的服务状态页**，由 GitHub 驱动。"
+  introMessage: 这是一个实时状态页面，用来查看网站是否正常。无需服务器，只使用 GitHub Actions、Issues 和 Pages。
   navbar:
-    - title: Status
+    - title: 状态
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/zhangsan/my-status
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Upptime 还支持通知、分配议题等功能
+# 参见 https://upptime.js.org/docs/configuration
