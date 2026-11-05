@@ -18,7 +18,7 @@ status-website:
     - title: 状态
       href: /
     - title: GitHub
-      href: https://github.com/zhangsan/my-status
+      href: https://github.com/HGfds29/my-status
 
 # Upptime 还支持通知、分配议题等功能
 # 参见 https://upptime.js.org/docs/configuration
